@@ -41,7 +41,7 @@
 }
 
 .tooltip-title {
-    margin-bottom: 1rem;
+    min-height: 25px;
 }
 
 .tooltip-info {
@@ -51,7 +51,8 @@
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.16px;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
+    min-height: 4.5rem;
 }
 
 .tooltip-links-handler {
@@ -89,7 +90,7 @@
 }
 
 .tooltip-line-clamp {
-    max-height: 3rem;
+    max-height: 5rem;
 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -98,8 +99,8 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 
 .tooltip-line-clamp-info {
