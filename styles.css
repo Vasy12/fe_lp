@@ -82,3 +82,10 @@
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+
+    :root {
+        font-size: 14px;
+    }
+}
