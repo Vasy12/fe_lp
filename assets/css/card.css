@@ -7,10 +7,7 @@
     position: relative;
     width: 370px;
     height: 440px;
-
-    background: silver;
-    border: pink;
-
+    margin-bottom: 14px;
 }
 .item-border{
 
