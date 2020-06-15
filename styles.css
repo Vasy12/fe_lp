@@ -1,5 +1,6 @@
 @import "./assets/css/reset.css";
 @import "./assets/css/grid.css";
+@import "./assets/css/tooltip.css";
 
 :root {
     font-family: Raleway, sans-serif;
@@ -8,7 +9,6 @@
 }
 
 .section {
-    border: 2px solid;
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@
 }
 
 .heading-margins {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .section-subheading {
@@ -59,6 +59,10 @@
     padding-bottom: 97%;
 }
 
+.work-item_team{
+    padding-bottom: 119%;
+}
+
 .work-img-wrapper {
     position: absolute;
     top: 0;
@@ -72,4 +76,16 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.work-item_team:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+
+    :root {
+        font-size: 14px;
+    }
 }
