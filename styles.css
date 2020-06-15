@@ -1,5 +1,6 @@
 @import "./assets/css/reset.css";
 @import "./assets/css/grid.css";
+@import "./assets/css/card.css";
 
 :root {
     font-family: Raleway, sans-serif;
