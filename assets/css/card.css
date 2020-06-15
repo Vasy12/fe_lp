@@ -38,6 +38,21 @@
 
 
 }
+
+.user-card::before{
+    content: '';
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 21px 37px 21px;
+    border-color: transparent transparent var(--colorFon) transparent;
+
+    position: absolute;
+    top: -20px;
+    left: 10px;
+
+}
 .user-date{
     font-family: 'Merriweather', serif;
     font-style: normal;
